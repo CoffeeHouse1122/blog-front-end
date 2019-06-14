@@ -447,9 +447,9 @@
 					</div>
 					<!-- ================= main-detail ======================= -->
 					<div class="main-central main-mod main-detail hidden">
-						<section class="style">
+						<section class="style books">
 							<header class="detail-header">
-								<h1 class="title">详情页详情页详情页详情页详情页详情页详情页详情页详情页详情页</h1>
+								<h1 class="title">详情页详情页详情页详页详情页详情页详情页详情页详情页</h1>
 								<div class="meta">
 										发布于 6个月前 / 666 次围观 / 666 条评论 / 前端 / Mine
 								</div>
@@ -457,7 +457,7 @@
 							<div class="detail-content">
 
 							</div>
-							<div class="detail-bottom">
+							<div class="detail-bottom f-bottom">
 								<a href="javascript:;" class="hint-left">
 										<i class="layui-icon layui-icon-praise"></i>
 										<span class="count">666</span>
@@ -472,8 +472,18 @@
 								</a>
 							</div>
 						</section>
-						<div class="comment-respond style">
-
+						<div class="comment-container style">
+							<form id="commentform" class="comment-form">
+								<input type="hidden" name="gid" value="666">
+								<div class="comment-main">
+									<div class="comment-userinfo">
+											<input id="author" name="comname" type="text" value="" size="30" maxlength="245" required="required" placeholder="昵称 (必填)">
+											<input id="email" name="commail" type="email" value="" size="30" maxlength="100" required="required" placeholder="邮件地址 (必填)">
+											<input id="url" name="comurl" type="url" value="" size="30" maxlength="200" placeholder="个人主页 (选填)">
+										</div>
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
 					<!-- ================= main-category ======================= -->

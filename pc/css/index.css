@@ -370,6 +370,48 @@ p.user-des {
   font-size: 24px;
   font-weight: 700;
 }
+/* 详情页 */
+.books {
+  padding: 0;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.detail-header {
+  padding: 20px 25px 10px;
+  border-bottom: 1px solid #eee;
+}
+.detail-header .title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.4;
+}
+.detail-header .meta {
+  color: #5f5f5f;
+  font-size: 12px;
+}
+.detail-content {
+  position: relative;
+  padding: 15px 25px;
+  font-size: 15px;
+}
+.detail-bottom {
+  margin: 0;
+}
+.comment-container {
+  overflow: hidden;
+}
+.comment-container .comment-form {
+  padding: 10px 15px;
+}
+.comment-userinfo input {
+  width: 33.333%;
+  float: left;
+  border: 0;
+  border-bottom: 1px dashed #ddd;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 13px;
+}
 /* 右部 */
 .search-input {
   width: 100%;
